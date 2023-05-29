@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(150deg,#484848aa,#505050bb,#686868cc);
+    font-size:1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background: linear-gradient(to bottom, #505050 50%, #696969 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    border:2px solid black;
+    outline: 5px double black;
+    margin: auto;
+}
+
+header p{
+    text-align: center;
+    width:15em;
+    color:#DCDCDC;
+}
+
+.state{
+    font-size:1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    text-shadow: 3px 3px 2px dimgray,3px 3px 2px rgb(168, 24, 130);
+    color:rgba(234, 243, 243, 0.844);
+    vertical-align:text-top;
+    font-family: "Helvetica";
+}    
+
+.state::before,.state::after{
+    content:'"';
+    font-weight: 700;
+}
+
+header h1{
+    margin:0;
+    padding:0.2rem;
+    color:#C8C8C8;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px black,2px 2px 5px #C8C8C8;
+    font-family: "Verdana";
+    text-transform: uppercase;
+}
+
+#image{
+    width:auto;
+    max-width:100%;
+    height:auto;
+    max-height:75vh;
+    margin:auto;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 3px rgb(182, 179, 179);
+}
+
+#img-caption{
+    text-align: center;
+    width:50%;
+    margin: auto;
+    color:white;
+}
+
+.copyright{
+    text-decoration: underline dashed rgb(212, 202, 202);
+}
+
+#tribute-info h2{
+    text-align: center;
+    color:#120c0c;
+    font-weight: 800;
+    font-size:1.5rem;
+    letter-spacing: 2px;
+    text-decoration: underline rgb(88, 85, 85) dotted;
+}
+
+th{
+    font-weight: 800;
+    color:#e3d7d7;
+    text-align: center;
+    width:100%;
+    
+}
+
+td{
+    color: #0b0000	;
+    width:100%;
+    padding: 15px;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.break{
+    margin-bottom:5px;
+    display: block;
+}
+
+table{
+    width:80%;
+    margin:20px auto;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+
+tr:hover{
+    cursor:pointer;
+    background-color: #50505099;
+}
+
+table,th,tr{
+    display: block;
+}
+
+tr{
+    margin-bottom: 15px;
+}
+
+section:nth-of-type(3) h2{
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    text-align: center;
+}
+
+.iphone img,.macbook img,.ipad img,.watch img,.macintosh img{
+    width:250px;
+    height:250px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px black;
+}
+
